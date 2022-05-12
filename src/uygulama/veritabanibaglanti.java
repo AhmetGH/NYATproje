@@ -13,8 +13,10 @@ public class veritabanibaglanti implements Iveritabanibaglanti{
 	       try {
 	           conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/kullanicidogrulama",
 	                   "postgres", "123456");
-	           if (conn != null)
-	               System.out.println("Veritabanına bağlandı!");
+	           if (conn != null) {
+				   System.out.println("Veritabanına bağlandı!");
+				   Thread.sleep(500);
+			   }
 	           else
 	               System.out.println("Bağlantı girişimi başarısız!");
 	       } catch (Exception e) {

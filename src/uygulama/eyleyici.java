@@ -28,6 +28,7 @@ public class eyleyici {
 			}
 			else {
 				System.out.println("Sogutucu zaten kapali !");
+				Thread.sleep(500);
 			}
 		}catch (InterruptedException e) {e.printStackTrace();}
 		sogutucudurumu=1;
