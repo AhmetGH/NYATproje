@@ -1,6 +1,6 @@
 package uygulama;
 
-public class dogrulama {
+public class dogrulama implements Idogrulama{
 	
 	private final Iveritabanibaglanti veritabani;
 	
